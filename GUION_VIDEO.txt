@@ -1,0 +1,16 @@
+GUION BREVE PARA EL VIDEO DE GEOIA (MAXIMO 2 MINUTOS)
+
+Inicio:
+"Nuestro proyecto se llama GeoIA. Es un clasificador de figuras geométricas que desarrollamos con Python y PyTorch para reconocer círculos, cuadrados, triángulos y rectángulos."
+
+Código:
+"Primero generamos imágenes en escala de grises de 64 por 64 píxeles. Luego las separamos en entrenamiento, validación y prueba. La red neuronal usa capas convolucionales, ReLU, MaxPool y Dropout para aprender características de cada figura."
+
+Entrenamiento:
+"Durante el entrenamiento calculamos el error con CrossEntropyLoss y actualizamos los pesos con Adam. Guardamos el modelo que obtiene la menor pérdida de validación."
+
+Resultados y demostración:
+"En nuestra prueba, clasificó correctamente 180 de 180 imágenes sintéticas. Ahora mostramos cómo se predice la figura de un círculo. El resultado no garantiza la misma exactitud en fotos o dibujos reales."
+
+GitHub:
+"También publicamos el código fuente, el cuaderno de Google Colab y las instrucciones de ejecución en nuestro repositorio público de GitHub: https://github.com/Lizo20/GeoIA-Reconocimiento-Figuras . Así el profesor puede revisar y ejecutar el proyecto."
